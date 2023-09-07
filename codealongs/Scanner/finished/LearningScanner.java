@@ -17,6 +17,7 @@ public class LearningScanner {
         System.out.println("The average salary is: " + avgSalary);
         System.out.println("A message was received:");
         System.out.println(msg);
+    
 
         s.close();
     }
