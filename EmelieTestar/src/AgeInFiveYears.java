@@ -14,6 +14,8 @@ public class AgeInFiveYears {
         System.out.println("Did you know that in five years you will be " + ageInFiveyears + "  years old?");
          System.out.println("And five years ago you were " + ageFiveyearsEarlier + "! Imagine that!");
 
+         minScanner.close();
+
 
         
     }
