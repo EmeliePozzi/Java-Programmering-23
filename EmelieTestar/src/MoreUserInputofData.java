@@ -24,7 +24,7 @@ public class MoreUserInputofData {
 
         System.out.println("Enter your GPA (0.0 to 4.0:)");
         double gpa = myScanner.nextDouble();
-
+        
         System.out.println("This is your information: ");
         System.out.println("First name: " + firstName);
         System.out.println("Last name: " + lastName);
