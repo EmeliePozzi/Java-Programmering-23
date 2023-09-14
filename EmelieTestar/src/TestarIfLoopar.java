@@ -21,7 +21,24 @@ public class TestarIfLoopar {
 
      }
 
-     
+     //2.4 d Write a program that uses a while loop to count down from 10 to 1, printing each number.
+     int number = 10;
+     while (number >= 1){
+        System.out.println("Detta är nummer: " + number);
+        number --;
+     }
+
+     //2.4 e Write a program that uses a for loop to calculate and print the sum of the first 10 odd numbers.
+     int summa = 0;
+     for (int j = 0; j <= 10; j++ ){
+        if (j % 2 != 0) {
+            summa = summa + j;
+
+        }
+         
+     }
+     System.out.println(summa);
+
 
         
     }
